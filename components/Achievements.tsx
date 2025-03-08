@@ -14,7 +14,7 @@ export function Achievements() {
                         title={item.title}
                         description={item.description}
                         header={item.header}
-                        className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+                        className={i === 3 ? "md:col-span-2" : ""}
                     />
                 ))}
             </BentoGrid>
@@ -28,41 +28,48 @@ const Skeleton = ({ imagePath }: { imagePath: string }) => (
 );
 
 const items = [
+    
     {
-        title: "Technical Head @GeeksForGeeks KIIT Chapter",
-        description: "Led a Society of 200+ members and co-ordinated 20+ Projects annd 5+ Events.",
-        header: <Skeleton imagePath="/ach/gfg.jpeg" />,
-        // icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-        title: "President @CyberVault",
-        description: "Led a dedicated Cybersecurity Society, organized 5+ Workshops and 3+ CTFs.",
-        header: <Skeleton imagePath="/ach/cybervault.jpg" />,
-    },
-    {
-        title: "ML Team Member at various other societies",
+        title: "ML Team Member at AISOC",
         description: "Conducted classes and events to spread the knowledge of Machine Learning.",
-        header: <Skeleton imagePath="/ach/iot.jpeg" />,
+        header: <Skeleton imagePath="/ach/pp.jpg" />,
+    },
+  
+
+    {
+        title: "Strivers A2Z DSA Sheet",
+        description: "Strengthening data structures and algorithms proficiency.",
+        header: <Skeleton imagePath="/ach/tuf.png" />,
+    },
+    {
+        title: "Relaython Participant",
+        description: "Participated in Relaython organized by GFG Society and earned a certificate.",
+        header: <Skeleton imagePath="/ach/relaython.jpeg" />,
     },
     {
         title: "LeetCode Stats?",
-        description: "Solved 500+ problems.",
+        description: "Solved 200+ problems on LeetCode",
         header: <Skeleton imagePath="/ach/lc.png" />,
     },
     {
-        title: "Specialist on CodeForces",
-        description:
-            "Solved 250+ problems on CodeForces and participated in 30+ contests.",
-        header: <Skeleton imagePath="/ach/cf.png" />,
+        title: "Unstop",
+        description: "Expanded knowledge by participating in various events on Unstop",
+        header: <Skeleton imagePath="/ach/unstop.png" />,
     },
     {
-        title: "Hey There",
-        description: "If you are reading this then it probably means, you are interested in my work. Thanks for stopping by!",
-        header: <Skeleton imagePath="/ach/stop.jpg" />,
+        title: "NLP Research Exploration",
+        description: "Explored research in Natural Language Processing, contributing to various applications.",
+        header: <Skeleton imagePath="/ach/nlp.jpeg" />,
     },
     {
-        title: "OpenSource cuz its fun",
-        description: "Contributed to Big Open Source Orgs like HuggingFace, DagsHub, illa Cloud and more!",
-        header: <Skeleton imagePath="/ach/holo.png" />,
+        title: "SWOC Contributor",
+        description: "Tried to contributed to open-source projects in Social Winter of Code (SWOC) Season 4.",
+        header: <Skeleton imagePath="/ach/swoc.jpeg" />,
     },
+    {
+        title: "Udemy Facial Recognition Certification",
+        description: "Successfully completed a comprehensive course on facial recognition, gaining expertise in image processing and deep learning techniques.",
+        header: <Skeleton imagePath="/ach/Udemy.jpeg" />,
+    }
+    
 ];

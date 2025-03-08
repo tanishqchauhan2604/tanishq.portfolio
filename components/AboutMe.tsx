@@ -13,41 +13,43 @@ export function AboutMe() {
                         className="m-1 h-[25rem]"
                         titlee={
                             <div className="text-xl font-bold relative z-20 mt-2 text-white">
-                                $ whoami
+                                 who am i
                             </div>
                         }
                         contentt={
                             <div>
                                 <div className="text-xl font-bold relative z-20 mt-2 text-white">
-                                    $ whoami
+                                     who am i
                                 </div>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    Hey There! I am Suket Kamboj
+                                    Hey there! I’m <span className="font-bold text-white">Tanishq Chauhan</span>.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    A 21-year-old wanna-be Software Engineer from India.
+                                    A 21-year-old aspiring Software Engineer from India, passionate about solving real-world problems through code.
+                                </p>
+                                
+                                <p className="text-neutral-200 mt-4 relative z-20">
+                                    Currently seeking **Summer Internship Opportunities for 2025** where I can contribute, learn, and grow as a developer.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    I&apos;m passionate about building impactful products through software development.
-                                </p>
-                                <p className="text-neutral-200 mt-4 relative z-20">
-                                    Currently looking for Summer Internship Opportunities for 2025.
+                                    When I’m not coding, you’ll find me exploring open-source projects, or diving into the latest advancements in AI & Web Development.
                                 </p>
                             </div>
                         }
+                        
                     />
                     <CardSpotlight
                         colorss={[[126, 46, 132], [209, 64, 129]]}
                         className="m-1 h-[25rem]"
                         titlee={
                             <div className="text-xl font-bold relative z-20 mt-2 text-white">
-                                $ whatdoido
+                                 what do i do
                             </div>
                         }
                         contentt={
                             <div>
                                 <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
-                                    $ whatdoido
+                                     what do i do
                                 </h1>
                                 <p className="text-neutral-200 mt-4 relative z-20">
                                     I am currently pursuing my Bachelor of Technology in Computer Science and Engineering from Kalinga Institute of Industrial Technology.
@@ -66,16 +68,16 @@ export function AboutMe() {
                         className="m-1 h-[25rem]"
                         titlee={
                             <div className="text-xl font-bold relative z-20 mt-2 text-white">
-                                $ beyondcode
+                                 beyond code
                             </div>
                         }
                         contentt={
                             <div>
                                 <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
-                                    $ beyondcode
+                                     beyond code
                                 </h1>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    When I&apos;m not immersed in code, I enjoy playing guitar, discovering new music, and exploring the outdoors.
+                                    When I&apos;m not immersed in code, I enjoy playing chess, discovering new music, and exploring the outdoors.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
                                     I value teamwork and am driven by a desire to constantly learn and refine my skills.

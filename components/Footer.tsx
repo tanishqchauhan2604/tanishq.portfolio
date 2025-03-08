@@ -7,14 +7,9 @@ function Footer() {
             <footer className="footer bg-black tetx-white items-center p-4 border-t border-white">
                 <aside className="grid-flow-col items-center">
                     <IconRocket size={50}/>
-                    <p>Made with ❤️ by Suket Kamboj</p>
+                    <p>Made with ❤️ by Tanishq Chauhan</p>
                 </aside>
-                <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                    <IconBrandGithub/>
-                    <a href='https://github.com/Sookeyy-12/Sookeyy-12.github.io'>
-                    Checkout this website on Github
-                    </a>
-                </nav>
+                
             </footer>
         </>
     )

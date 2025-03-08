@@ -22,10 +22,10 @@ export function HeroSection() {
                     }}
                     className="text-4xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                 >
-                    Passionate about Code.<br></br>Driven by Creativity.<br></br>Hi! I am
+                    Shaping Dreams into Code.<br></br>Driven by Creativity.<br></br>Hey! I am
                     {" "}
                     <Highlight className="text-black dark:text-white">
-                        Suket Kamboj
+                        Tanishq Chauhan
                     </Highlight>
                 </motion.h1>
             </HeroHighlight>
