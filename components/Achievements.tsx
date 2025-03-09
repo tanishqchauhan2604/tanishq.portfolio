@@ -32,7 +32,7 @@ const items = [
     {
         title: "ML Team Member at AISOC",
         description: "Conducted classes and events to spread the knowledge of Machine Learning.",
-        header: <Skeleton imagePath="/ach/pp.jpg" />,
+        header: <Skeleton imagePath="/ach/PP.jpg" />,
     },
   
 
@@ -69,7 +69,7 @@ const items = [
     {
         title: "Udemy Facial Recognition Certification",
         description: "Successfully completed a comprehensive course on facial recognition, gaining expertise in image processing and deep learning techniques.",
-        header: <Skeleton imagePath="/ach/Udemy.jpeg" />,
+        header: <Skeleton imagePath="/ach/udemy.jpeg" />,
     }
     
 ];
